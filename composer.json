@@ -1,0 +1,19 @@
+{
+    "name": "mateuszmesek-magento2/framework-config",
+    "description": "N/A",
+    "type": "magento2-library",
+    "require": {
+        "ext-dom": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MateuszMesek\\Framework\\Config\\": "src"
+        }
+    }
+}
